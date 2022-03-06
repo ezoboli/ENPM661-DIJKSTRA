@@ -96,7 +96,7 @@ def userInput():
             print("Invalid starting x position, setting x position to 400")
             start_x = 400
     
-        start_y = int(input('Enter starting y position: '))
+        start_y = 250 - int(input('Enter starting y position: '))
         if start_y< 0 :
             print("Invalid starting y position, setting y position to 0")
             start_y = 0
@@ -112,7 +112,7 @@ def userInput():
             print("Invalid goal x position, setting x position to 400")
             goal_x = 400
     
-        goal_y = int(input('Enter goal y position: '))
+        goal_y = 250 - int(input('Enter goal y position: '))
         if goal_y < 0 :
             print("Invalid goal y position, setting y position to 0")
             goal_y = 0
